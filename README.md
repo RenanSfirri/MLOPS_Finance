@@ -5,14 +5,13 @@
 - [1. Introduction](#1-introduction)
 - [2. Project Structure](#2-project-structure)
 - [3. Dataset Information](#3-dataset-information)
-- [4. Installation and Setup](#4-installation-and-setup)
-- [5. Exploratory Data Analysis (EDA)](#5-exploratory-data-analysis-eda)
-- [6. Data Preprocessing & Feature Engineering](#6-data-preprocessing--feature-engineering)
-- [7. Modeling](#7-modeling)
-- [8. Evaluation](#8-evaluation)
-- [9. Results and Insights](#9-results-and-insights)
-- [10. Hyperparameter Tuning](#10-hyperparameter-tuning)
-- [11. Limitations](#11-limitations)
+- [4. Exploratory Data Analysis (EDA)](#5-exploratory-data-analysis-eda)
+- [5. Data Preprocessing & Feature Engineering](#6-data-preprocessing--feature-engineering)
+- [6. Modeling](#7-modeling)
+- [7. Evaluation](#8-evaluation)
+- [8. Results and Insights](#9-results-and-insights)
+- [9. Hyperparameter Tuning](#10-hyperparameter-tuning)
+- [10. Limitations](#11-limitations)
 
 ---
 
@@ -33,13 +32,19 @@ This repository contains a **comprehensive** end-to-end machine learning project
 
 ## 2. Project Structure
 
-loan_approval_project/ ├── data/ │ └── train.csv # Original loan dataset ├── notebooks/ │ ├── 01_exploratory_data_analysis.ipynb │ └── 02_model_building.ipynb ├── src/ │ └── helpers.py # (Optional) custom helper functions ├── README.md # This documentation ├── requirements.txt # Python dependencies └── .gitignore # Files/directories to be ignored by Git
+loan_approval_project/
+├── data/ │
+└── train.csv # Original loan dataset
+├── notebooks/ │
+└── financing_mlops_pipeline.ipynb
 
-**Brief Explanation**:
+├── README.md # This documentation
+├── requirements.txt # Python dependencies
+
+Brief Explanation\*\*:
 
 - `data/`: Contains the raw dataset (`train.csv`).
 - `notebooks/`: Jupyter notebooks with detailed step-by-step code.
-- `src/`: Any additional Python modules or scripts.
 - `README.md`: The main documentation (what you’re reading now).
 - `requirements.txt`: Lists required libraries.
 
@@ -65,23 +70,7 @@ The dataset (commonly from Kaggle or a local source) has columns such as:
 
 ---
 
-## 4. Installation and Setup
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/your-username/loan_approval_project.git
-   cd loan_approval_project
-
-   ```
-
-2. **Install Dependencies**:
-   pip install -r requirements.txt
-
-3. **Run Jupyter notebooks**:
-   jupyter notebook notebooks/01_exploratory_data_analysis.ipynb
-
-## 5. Exploratory Data Analysis (EDA)
+## 4. Exploratory Data Analysis (EDA)
 
 In [01_exploratory_data_analysis.ipynb](./notebooks/01_exploratory_data_analysis.ipynb), we:
 
@@ -99,7 +88,7 @@ In [01_exploratory_data_analysis.ipynb](./notebooks/01_exploratory_data_analysis
 
 ---
 
-## 6. Data Preprocessing & Feature Engineering
+## 5. Data Preprocessing & Feature Engineering
 
 Still working in [01_exploratory_data_analysis.ipynb](./notebooks/01_exploratory_data_analysis.ipynb) (or moving on to a second notebook), we:
 
@@ -113,7 +102,7 @@ Still working in [01_exploratory_data_analysis.ipynb](./notebooks/01_exploratory
 
 ---
 
-## 7. Modeling
+## 6. Modeling
 
 In [02_model_building.ipynb](./notebooks/02_model_building.ipynb), we:
 
@@ -128,7 +117,7 @@ In [02_model_building.ipynb](./notebooks/02_model_building.ipynb), we:
 
 ---
 
-## 8. Evaluation
+## 7. Evaluation
 
 For each model, we measure:
 
@@ -143,7 +132,7 @@ Sample results might show:
 
 ---
 
-## 9. Results and Insights
+## 8. Results and Insights
 
 - **Major Determinants**:
 
@@ -156,7 +145,7 @@ Sample results might show:
 
 ---
 
-## 10. Hyperparameter Tuning
+## 9. Hyperparameter Tuning
 
 Using methods like **GridSearchCV** or **RandomizedSearchCV**, we:
 
@@ -166,7 +155,7 @@ Using methods like **GridSearchCV** or **RandomizedSearchCV**, we:
 
 ---
 
-## 11. Limitations
+## 10. Limitations
 
 ### Limitations
 
