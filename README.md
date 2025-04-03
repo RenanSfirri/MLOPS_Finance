@@ -33,12 +33,15 @@ This repository contains a **comprehensive** end-to-end machine learning project
 ## 2. Project Structure
 
 loan_approval_project/
+
 ├── data/ │
 └── train.csv # Original loan dataset
+
 ├── notebooks/ │
 └── financing_mlops_pipeline.ipynb
 
 ├── README.md # This documentation
+
 ├── requirements.txt # Python dependencies
 
 Brief Explanation\*\*:
@@ -72,7 +75,7 @@ The dataset (commonly from Kaggle or a local source) has columns such as:
 
 ## 4. Exploratory Data Analysis (EDA)
 
-In [01_exploratory_data_analysis.ipynb](./notebooks/01_exploratory_data_analysis.ipynb), we:
+In [financing_mlops_pipeline.ipynb](./notebooks/financing_mlops_pipeline.ipynb), we:
 
 - **Inspect** the dataset’s shape, columns, and data types.
 - **Generate** statistical summaries (`df.describe()`) for both numeric and categorical features.
@@ -90,7 +93,7 @@ In [01_exploratory_data_analysis.ipynb](./notebooks/01_exploratory_data_analysis
 
 ## 5. Data Preprocessing & Feature Engineering
 
-Still working in [01_exploratory_data_analysis.ipynb](./notebooks/01_exploratory_data_analysis.ipynb) (or moving on to a second notebook), we:
+Still working in [financing_mlops_pipeline.ipynb](./notebook/financing_mlops_pipeline.ipynb) we:
 
 - **Handle missing values**:
   - For numeric data (e.g., `LoanAmount`), we typically fill with the median.
@@ -104,7 +107,7 @@ Still working in [01_exploratory_data_analysis.ipynb](./notebooks/01_exploratory
 
 ## 6. Modeling
 
-In [02_model_building.ipynb](./notebooks/02_model_building.ipynb), we:
+In the phase we:
 
 - **Train-Test Split**:
   - Use `train_test_split()` with an 80/20 ratio (or another split proportion).
