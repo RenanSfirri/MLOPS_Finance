@@ -5,13 +5,13 @@
 - [1. Introduction](#1-introduction)
 - [2. Project Structure](#2-project-structure)
 - [3. Dataset Information](#3-dataset-information)
-- [4. Exploratory Data Analysis (EDA)](#5-exploratory-data-analysis-eda)
-- [5. Data Preprocessing & Feature Engineering](#6-data-preprocessing--feature-engineering)
-- [6. Modeling](#7-modeling)
-- [7. Evaluation](#8-evaluation)
-- [8. Results and Insights](#9-results-and-insights)
-- [9. Hyperparameter Tuning](#10-hyperparameter-tuning)
-- [10. Limitations](#11-limitations)
+- [4. Exploratory Data Analysis (EDA)](#4-exploratory-data-analysis-eda)
+- [5. Data Preprocessing & Feature Engineering](#5-data-preprocessing--feature-engineering)
+- [6. Modeling](#6-modeling)
+- [7. Evaluation](#7-evaluation)
+- [8. Results and Insights](#8-results-and-insights)
+- [9. Hyperparameter Tuning](#9-hyperparameter-tuning)
+- [10. Limitations](#10-limitations)
 
 ---
 
@@ -75,7 +75,7 @@ The dataset (commonly from Kaggle or a local source) has columns such as:
 
 ## 4. Exploratory Data Analysis (EDA)
 
-In [financing_mlops_pipeline.ipynb](./notebooks/financing_mlops_pipeline.ipynb), we:
+In [financing_mlops_pipeline.ipynb](./notebook/financing_mlops_pipeline.ipynb), we:
 
 - **Inspect** the dataset’s shape, columns, and data types.
 - **Generate** statistical summaries (`df.describe()`) for both numeric and categorical features.
